@@ -1,6 +1,6 @@
-.completed{
-    color: purple;
-    text-decoration: line-through;
+.completed {
+  color: purple;
+  text-decoration: line-through;
 }
 
 .Todo-container {
@@ -64,6 +64,7 @@
   -webkit-appearance: none;
   cursor: pointer;
   color: #fff;
+  outline: none;
 }
 
 .Todo-edit-form {
@@ -81,10 +82,10 @@
   background: #f7f1f1;
   padding: 0 1.5em;
   font-size: initial;
+  outline:none;
 }
 .Todo-edit-form button {
   padding: 0 1.3rem;
-  border: none;
   background: #ff6666;
   color: white;
   text-transform: uppercase;
@@ -93,6 +94,7 @@
   margin-left: 5px;
   cursor: pointer;
   transition: background 0.2s ease-out;
+  outline: none;
 }
 .Todo-edit-form button:hover {
   background: #ff5e5e;
@@ -101,4 +103,5 @@
 .Todo-edit-form button {
   font-family: "Quicksand", sans-serif;
   height: 3rem;
+  outline:none;
 }
